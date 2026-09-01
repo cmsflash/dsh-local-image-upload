@@ -1,0 +1,5 @@
+# One installable bundle row mounting the composer's click-to-browse paperclip.
+# Browser-only: the row carries no Host service, so there is no config.
+- insert:
+    - id: local-image-upload
+      name: '@dsh-external/dsh-local-image-upload'
